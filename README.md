@@ -8,9 +8,8 @@ This repository contains the implementation of the paper "An Efficient Ensemble 
 3. [Files Description](#files-description)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## Introduction
 
@@ -41,39 +40,28 @@ This dataset contains MRI images categorized into four classes:
 
 2. `Ensemble.ipynb`: Jupyter notebook with the implementation of the ensemble model, combining EfficientNet-B2 and VGG16 using a feature concatenation process.
 
-3. `best_model_vgg16.pth`: Saved weights for the trained VGG16 model.
-
-4. `best_model_effnetb2.pth`: Saved weights for the trained EfficientNet-B2 model.
-
-5. `ensemble.pth`: Saved weights for the trained ensemble model, combining features from both EfficientNet-B2 and VGG16.
+3. `best_model_effnetb2.pth`: Saved weights for the trained EfficientNet-B2 model.
 
 ## Installation
 
 To run this project, you need to have Python 3.7+ installed. Clone this repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/alzheimers-detection-ensemble.git
-cd alzheimers-detection-ensemble
-pip install -r requirements.txt
+[git clone https://github.com/yourusername/alzheimers-detection-ensemble.git](https://github.com/junayed-hasan/alzheimers-disease-detection.git)
+cd alzheimers-disease-detection
 ```
 
 ## Usage
 
-1. Download the dataset from the Kaggle link provided above and place it in the `data` directory.
+1. Download the notebooks 
 
-2. To train and evaluate individual models:
-   ```
-   jupyter notebook Alzheimers_EffNetB2_and_VGG.ipynb
-   ```
+2. Go to Kaggle > Code > New notebook
 
-3. To run the ensemble model:
-   ```
-   jupyter notebook Ensemble.ipynb
-   ```
+3. Import the notebook
 
-## Results
+4. Add the Alzheimer's Dataset (4 class of Images) dataset as input.
 
-(Briefly describe the key results achieved by your implementation, such as accuracy, sensitivity, specificity, etc. Compare these results with those reported in the original paper if possible. Include any improvements observed from using ADASYN for data balancing and the ensemble approach with feature concatenation.)
+5. Run the cells!
 
 ## Contributing
 
@@ -87,7 +75,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Copyright
 
-© 2023 [Your Name or Organization]. All rights reserved.
+© 2023 Mohammad Junayed Hasan. All rights reserved.
 
 This project is a reproduction of the work presented in:
 
