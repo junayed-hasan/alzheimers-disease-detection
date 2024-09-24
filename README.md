@@ -40,7 +40,6 @@ This dataset contains MRI images categorized into four classes:
 
 2. `Ensemble.ipynb`: Jupyter notebook with the implementation of the ensemble model, combining EfficientNet-B2 and VGG16 using a feature concatenation process.
 
-3. `best_model_effnetb2.pth`: Saved weights for the trained EfficientNet-B2 model.
 
 ## Installation
 
