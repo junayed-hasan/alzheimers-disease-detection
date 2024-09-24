@@ -46,7 +46,7 @@ This dataset contains MRI images categorized into four classes:
 To run this project, you need to have Python 3.7+ installed. Clone this repository and install the required packages:
 
 ```bash
-[git clone https://github.com/yourusername/alzheimers-detection-ensemble.git](https://github.com/junayed-hasan/alzheimers-disease-detection.git)
+[git clone https://github.com/junayed-hasan/alzheimers-disease-detection.git
 cd alzheimers-disease-detection
 ```
 
